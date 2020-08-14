@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth !important;
 }
 
-body { outline: none; padding: 0px; margin: 0px; font-family: 'arial'; background-color: #efefef;overflow-x: hidden;}
+body { outline: none; padding: 0px; margin: 0px; font-family: 'arial'; background-color: #efefef}
 button:focus{outline: none;} 
 select:focus{outline: none;} 
 iframe {width: 100%;}
