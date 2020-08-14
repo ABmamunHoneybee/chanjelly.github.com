@@ -1,0 +1,30 @@
+/* clearfix */
+.owl-carousel .owl-wrapper:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+/* display none until init */
+.owl-carousel { display: none; position: relative; width: 100%; -ms-touch-action: pan-y; }
+.owl-carousel .owl-wrapper { display: none; position: relative; -webkit-transform: translate3d(0px, 0px, 0px); }
+.owl-carousel .owl-wrapper-outer { overflow: hidden; position: relative; width: 100%; }
+.owl-carousel .owl-wrapper-outer.autoHeight { -webkit-transition: height 500ms ease-in-out; -moz-transition: height 500ms ease-in-out; -ms-transition: height 500ms ease-in-out; -o-transition: height 500ms ease-in-out; transition: height 500ms ease-in-out; }
+.owl-carousel .owl-item { float: left; }
+.owl-controls .owl-page, .owl-controls .owl-buttons div { cursor: pointer; }
+.owl-controls {-webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+/* mouse grab icon */
+.grabbing { cursor: url(grabbing.png) 8 8, move; }
+/* fix */
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); z-index:9; cursor:pointer; margin:;}
+
+/* next and prev */
+
+.owl-controls .owl-buttons {position:absolute; top:40%; left:0px; width:100%;}
+.owl-controls .owl-buttons .owl-prev, .owl-controls .owl-buttons .owl-next {float:left; width:40px; height:40px; cursor:pointer; text-align:left; font-family: FontAwesome; z-index:9999; background-color:#000; color:#fff; text-align:center; line-height:40px; font-size:30px; opacity: 0;  -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.owl-controls .owl-buttons .owl-prev {position: absolute; left:0px;}
+.owl-controls .owl-buttons .owl-next {position: absolute; right:10px;}
+/* ----Products Categories---- */	
+.owl-carousel:hover .owl-next{opacity:1;}
+.owl-carousel:hover .owl-prev{opacity:1;}
+.products-categ .owl-controls .owl-buttons .owl-next{right:-20px; top:-15px;}
+.products-categ .owl-controls .owl-buttons .owl-prev{left:0; top:-15px;}
+
+/*-----Our Blogs---*/
+.our-blogs .owl-controls .owl-buttons .owl-next{top:-376px;}
+.our-blogs .owl-controls .owl-buttons .owl-prev{top:-376px;}

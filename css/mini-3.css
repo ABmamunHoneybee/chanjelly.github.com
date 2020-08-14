@@ -1,0 +1,680 @@
+
+body { outline: none; padding: 0px; margin: 0px; font-family: 'Lato', sans-serif;  background-color: #fff;}
+.exchangebar { background-color:#0a1c77; float: left; height: 70px; padding: 8px 0 !important;  width: 100%;}
+.tickercontainer{height: 60px !important;}
+
+.fa.fa-angle-down { font-size: 17px; margin: 0 7px;}
+.title{width:100%; float:left; text-align:center; margin-bottom:30px; font-size:30px;  text-transform:uppercase; font-family: 'Lato', sans-serif;  font-weight:400; color: #258fb0;}
+.title-4{color:#000a6c; width:100%;float:left;text-align:center;font-size:20px;text-transform:none;font-family: 'Lato', sans-serif;font-weight:400;margin:20px 0 30px;}
+.title-4 a{color:#000a6c; text-decoration:underline;}
+.title-seb{width:100%; float:left; text-align:center; font-size:30px; text-transform:uppercase; color:#454649; font-family: 'Lato', sans-serif;  font-weight:400; }
+.title-seb-p{width:100%; float:left; text-align:center; font-size:20px;font-family: 'Lato', sans-serif;font-weight:400;margin:20px 0 10px; color:#454649;}
+.slider-row h3 {font-family: "Lato",sans-serif; font-size:40px; width: 100%; text-align:center; font-weight:bold; text-transform:uppercase; color:#fff;}
+.slider-row h5 {font-family: "Lato",sans-serif; font-size:25px; width: 100%; text-align:center; color:#fff; margin-top:50px;}
+.slider-row p {font-size:18px; font-family: 'Lato', sans-serif; opacity:1; margin-bottom: 40px;}
+.slider-row p.top-ten {float: left; margin: 17px 0 16px;  width: 100%; text-align:center;}
+.top-ten span{color:#f7d049;}
+.slider-row p.news{width:100%; float:left; margin:0 0 10px;}
+.news span{color:#47cbf1;}
+.slider-row {
+    top: auto;
+    bottom: 50px;
+} 
+.slider-row a:10px 0 0{background-color:#ff7058; border-color:#ff7058;}
+.slider-row .button-all-men{border-radius:0; display: table; float: none; margin: 30px auto 0; padding: 20px 20px;  line-height: 29px; color:#fff; font-size:22px}
+.slider-row .tradenow{background-color:#f7d049; color:#ff; border-color:#f7d049;}
+.slider-row .onlinecourses{background-color:#49d0f7;  border-color:#49d0f7;}
+.slider-row .button-all-men.yes-want{background-color:#fff; border-color:#fff; color:#0b1c71; text-transform: uppercase;}
+.ir-text {margin-left: 10px; margin-top: 7px; width: auto;}
+#registor_form_id .col-xs-12.col-sm-9.col-md-9.col-lg-9{padding:0px;}
+/*=======================
+discover our advanced...
+=========================*/
+.contact-header.account-row .title{background:none; text-align:left; margin-bottom: 20px;}
+.icons-row {padding-bottom: 30px; background-repeat: no-repeat; background-attachment:fixed;}
+.icons-row .title{color:#081653; text-transform:uppercase; font-family: 'Lato', sans-serif; font-weight:bold;}
+.discover{width:100%; float:left; margin-top:30px;  padding: 0;}
+.discover ul{width:100%; float:left;   margin: 40px 0 0;}
+.discover ul li {float: left; width:auto;margin-bottom:25px;}
+.ir-title {float: none; font-size: 16px;  width: auto;}
+.ir-text p {float: none;font-size: 15px;width: auto;}
+.discover ul li:nth-child(2){float:right;}
+.discover ul li:nth-child(4){padding-left: 45px;}
+.discover ul li:nth-child(3){float:none; margin:0 auto 50px; display:table; clear:both;}
+.discover ul li:nth-child(5){float:right;}
+.discover ul li:nth-child(6){float:none; margin:0 auto 50px; display:table;  clear:both;} 
+.ir-icon{border:none; background-color:transparent; border-radius:0%;  float:left; height: auto; text-align: center; vertical-align: middle;  width: auto;}
+.ir-title{color:#2b2a2a; font-family: 'Lato', sans-serif; font-weight:400;}
+.ir-text p{color:#2b2a2a; font-family: 'Lato', sans-serif; font-weight:200;}
+.ir-icon > img{width:auto;}
+/*=======================
+trade mobile from...
+=========================*/
+.mobile{padding:80px 0 100px; float:left; width:100%; background-color:#0a1c77; }
+.register-1 {width:200px;background-color:#49d0f7;color:#fff;  box-shadow:3px 6px 8px rgba(0, 0, 0, 0.20); float:left; line-height:50px;}
+.buy-token {width:200px;background-color:transparent;color:#000;border:1px solid #000;}
+.button-3 { display: table;  float: none;  margin: 60px auto 20px;}
+
+/*=======================
+bitcon by far the largest
+=========================*/
+
+/*bitcon*/
+.bitcoin-bg {background-image:url(../images/bg-bitcoin.jpg); width:100%;background-repeat: no-repeat; background-attachment:fixed; background-position: center center;float:left; position:relative;}
+.bitcoin-bg-1{background-color:rgba(0, 0, 0, 0.8); position:absolute; left:0px; right:0px; top:0px; bottom:0px;} 
+.largest{position:relative; z-index:9; padding:75px 0; float:left; width:100%;}
+.largest h3 {color:#f7d049; font-size:30px; text-transform:uppercase;text-align:center;}
+.mobile .title{color:#fff; margin-bottom: 20px;}
+.mobile .title-4{color:#fff; font-size:16px; margin-bottom:50px;}
+/*largest*/
+.largest .title{color:#151515; margin-bottom:15px;}
+.largest p{width:100%; float:left; color:#000; padding:0 10px 20px; text-align:center; font-size:20px; font-family: 'Lato', sans-serif;}
+.largest-text{width:100%; float:left; margin:0 0 15px 0;}
+.largest-img{width:auto; margin:auto; display:table; max-width:100%; }
+.largest .button-all-men{color:#000; border-color:#00;}
+
+
+/*=======================
+cryptocurrency charts
+=========================*/
+
+
+.cryptocurrency-charts{width:100%; float:left; position:relative; padding:60px 0 100px; background-color:#ebeded;}
+.cryptocurrency-charts .title{color:#258fb0; padding-bottom:10px; font-weight:bold;}
+.cryptocurrency-charts p{width:100%; float:left; text-align:center; font-size:20px;}
+.cryptocurrency-charts a:hover{color:#fff;}
+.crypto-currency-icons{width:100%; float:left; margin:60px 0 0;}
+.ourteam-row{margin-bottom:30px; margin-top:30px; float:left; width:100%}
+.promotion-box {padding: 0 3px;}
+.promotion-box a{width:100%; float:left; }
+.promotion-text{width:100%; float:left; padding:30px 0 0 ; min-height: 60px; }
+.promotion-text p{ font-size:14px; color:#454649 ; text-align:center; margin:0px;}
+.center-crypto{width:100%; float:left; margin-top:40px; display:none;}
+.center-crypto.active {display: block;}
+.up-box{width:100%; float:left; display:none; }
+.active .up-box{display:block;}
+.up-box img{margin:auto; float:none;  display:table;}
+.promotion-box.active a p{color:#fff;} 
+.price-box{width:auto; float:left; margin-top: 10px; margin-left: 50px;}
+.buyprice{float:left;  margin-right: 60px;}
+.buyprice p {float: left; font-size: 26px;  line-height: 45px;  padding: 0 14px 0 0;  width: auto;}
+.select-p p{margin:0px;}
+.buyprice strong{float:left; font-size:30px; font-weight:500;}
+.grnn{color:#3faf13;}
+.ethereum-icon {float: left;}
+.ethereum-tsxt {float: left;margin: 0 0 0 20px;}
+.ethereum-tsxt > img {float: left;}
+.ethereum-tsxt p {color: #2b2a2a;line-height: 52px;  margin: 0;  padding: 0 13px 0 0; width: auto;}
+.price-box2 {float: left; width: 100%;margin-top: 20px;}
+.price-box2 li a{float: left;font-size: 24px; font-weight:400;color:#000;padding-right:20px;}
+.price-box2 li {float: left;padding: 0;}
+.price-box2 li a:hover{color:#f7d049;}
+.tradeethereum {float: right; margin: 40px 0 0; width: auto;}
+.ethereum {background-color: #f0f0f0; border-radius: 6px;  float: right; padding: 0 10px; width: 200px;}
+.catego-select {-moz-appearance: none;  -webkit-appearance: none; -moz-appearance:none; -ms-appearance:none; -o-appearance: none; 
+ background-color:#fff; background-position:95% 15px; background-repeat: no-repeat;  border: medium none; color: #ffd15c; float: left; overflow: hidden; padding-left:10px; font-size:20px;  padding: 0 30px 0 10px;  background-image: url("../images/arrow.png");}
+.select-p p {float: left;margin: 0;text-indent: 0;width: auto;}
+.select-p {float: left;padding: 18px 20px 0 0;}
+.create-account-form{width:100%; float:left; background-color:#041047; padding:50px 0;}
+.create-account-form .title{text-transform:none;}
+.title span{color:#3f57d4; }
+.get-your{width:100%; float:left;}
+.get-your > span {float: left;padding: 20px 0 40px 0; text-align: center; width: 100%; font-size:20px;}
+.create-account { float: none;  margin: auto;  padding: 0 30px; width: 80%;}
+.create-account .button-all-men{background-color: #f7d049;border-color: #f7d049; color: #000; padding:0 35px;border-radius: 5px;}
+.create-account .form-control{height:50px; border-radius:5px; width:96%; font-size:17px;}
+.create-account .form-group {width:25%;}
+.Or-use{width:100%; float:left;}
+.Or-use-icon{width:auto; margin:-14px auto 0; display:table; color:#bdbbbb; font-size:17px; background-color:#f3f3f3; padding:0 15px ; }
+.Or-use p{margin:auto; width:auto; display:table; font-size:17px;} 
+.Or-use p a{color:#151515; text-decoration:underline;}
+.Or-use .button-3 .button-all-men .fa{float:left; width:200px;  line-height:50px; color:#fff; font-size:24px; border-radius: 11px; } 
+.Or-use .button-3 .button-all-men{float:left;}
+.Or-use .button-3 .button-all-men .fa.fa-facebook{background-color:#217bed;}
+.Or-use .button-3 .button-all-men .fa.fa-google-plus{background-color:#d8503b;}
+.Or-use .button-3 {margin: 60px auto 40px;}
+
+.cryptocurrency-charts1{width:100%; float:left; position:relative; padding:60px 0;}
+.cryptocurrency-charts1 .title{color:#081553; padding-bottom:10px; font-size:38px;}
+.cryptocurrency-charts1 p{width:100%; float:left;  color:#081553; text-align:center; font-size:20px;}
+.cryptocurrency-charts1 a:hover{color:#fff;}
+.crypto-currency-icons1{width:100%; float:left; margin:40px 0 0;}
+.promotion-box1 {padding: 0 3px;}
+.promotion-box1 a{width:100%; float:left; text-align:center; padding:10px 0; border-radius:0; color:#2b2a2a; background-color:#333;}
+.promotion-box1 a:hover{color:#fff;}
+.promotion-box1 a:hover p{color:#fff;}
+.promotion-box1 a img{margin:auto; display:table;}
+.promotion-box1 a p{ font-size:17px; width:100%; float:left; padding:10px 0 0 ; min-height: 60px; color:#fff;}
+.center-crypto{width:100%; float:left; margin-top:40px; display:none;}
+.center-crypto.active {display: block;}
+.up-box{width:100%; float:left; display:none; }
+.active .up-box{display:block;}
+.up-box img{margin:auto; float:none;  display:table;}
+.promotion-box.active a p{color:#fff;} 
+.price-box{width:auto; float:left; margin-top: 10px; margin-left: 50px;}
+.buyprice{float:left;  margin-right: 60px;}
+.buyprice p {float: left; font-size: 26px;  line-height: 45px;  padding: 0 14px 0 0;  width: auto;}
+.select-p p{margin:0px;}
+.buyprice strong{float:left; font-size:30px; font-weight:500;}
+.grnn{color:#3faf13;}
+.ethereum-icon {float: left;}
+.ethereum-tsxt {float: left;margin: 0 0 0 20px;}
+.ethereum-tsxt > img {float: left;}
+.ethereum-tsxt p {color: #2b2a2a;line-height: 52px;  margin: 0;  padding: 0 13px 0 0; width: auto;}
+.price-box2 {float: left; width: 100%;margin-top: 20px;}
+.price-box2 li a{float: left;font-size: 24px; font-weight:400;color:#000;padding-right:20px;}
+.price-box2 li {float: left;padding: 0;}
+.price-box2 li a:hover{color:#f7d049;}
+.tradeethereum {float: right; margin: 40px 0 0; width: auto;}
+.ethereum {background-color: #f0f0f0; border-radius: 6px;  float: right; padding: 0 10px; width: 200px;}
+.catego-select {-moz-appearance: none;  -webkit-appearance: none; -moz-appearance:none; -ms-appearance:none; -o-appearance: none; 
+ background-color:#fff; background-position:95% 15px; background-repeat: no-repeat;  border: medium none; color: #ffd15c; float: left; overflow: hidden; padding-left:10px; font-size:20px;  padding: 0 30px 0 10px;  background-image: url("../images/arrow.png");}
+.select-p p {float: left;margin: 0;text-indent: 0;width: auto;}
+.select-p {float: left;padding: 18px 20px 0 0;}
+
+.get-your{width:100%; float:left;}
+.get-your > span {float: left;padding: 20px 0 40px 0; text-align: center; width: 100%; font-size:20px;}
+.create-account { float: none;  margin: auto;  padding: 0 30px; width: 80%;}
+.create-account .button-all-men{background-color: #f7d049;border-color: #f7d049; color: #000; padding:0 35px;border-radius: 5px;}
+.create-account .form-control{height:50px; border-radius:5px; width:96%; font-size:17px;}
+.create-account .form-group {width:25%;}
+.Or-use{width:100%; float:left;}
+.Or-use-icon{width:auto; margin:-14px auto 0; display:table; color:#bdbbbb; font-size:17px; background-color:#f3f3f3; padding:0 15px ; }
+.Or-use p{margin:auto; width:auto; display:table; font-size:17px;} 
+.Or-use p a{color:#151515; text-decoration:underline;}
+.Or-use .button-3 .button-all-men .fa{float:left; width:200px;  line-height:50px; color:#fff; font-size:24px; border-radius: 11px; } 
+.Or-use .button-3 .button-all-men{float:left;}
+.Or-use .button-3 .button-all-men .fa.fa-facebook{background-color:#217bed;}
+.Or-use .button-3 .button-all-men .fa.fa-google-plus{background-color:#d8503b;}
+.Or-use .button-3 {margin: 60px auto 40px;}
+
+#owl-demo .owl-item a{background:#081553;}
+
+/*=============================
+Register
+================================*/
+.white-box{font-family: 'Lato', sans-serif;  background-color:#fff; float:left; width: 100%;}
+.account-wrapper{background:none;}
+.tab-content{background:none; margin:0px;}
+.header-site3 .tab-content .form-your .example{width:100%;}
+.header-site3 .tab-content .example{width:200px;}
+.header-site3  .tab-content .submit-upload{padding: 1px;}
+.form-terms-conditions{width:100%; margin:50px auto 0; display:table;}
+.form-terms-conditions .btn-all{width:240px; background-color:#49d0f7; padding:0px; margin:30px auto; display:table; float:none;  }
+.register-title{font-family: 'Lato', sans-serif; font-weight:bold; text-transform:uppercase;  margin:30px -12px; font-size:16px;  }
+.white-box .register-title{color:#000;}
+.white-box .example .catego-select{background-image:url(../images/arrow2.png); background-color:#f5f5f5;}
+.forgotyourpassword-button{margin:0px auto;}
+.black-box{font-family: 'Lato', sans-serif; background-color:#000; float:left; width: 100%; }
+.black-box .account-wrapper{background:none;}
+.black-box .register-header .title2{background-color:#000; border:1px solid #fff;}
+.black-box .register-header .title2 span {background-color: #f7d049;}
+.black-box .title3{color:#fff;}
+.black-box .register-title{color:#fff;}
+.black-box .register .control-label{color:#fff !important;}
+.black-box .form-terms-conditions .btn-all{background-color:#f7d049;}
+.black-box .checkbox-btn label{color:#fff;}
+.black-box .checkbox-btn input[type="checkbox"]:checked + label, .checkbox-btn input[type="radio"]:checked + label, .radio-btn input[type="checkbox"]:checked + label, .radio-btn input[type="radio"]:checked + label{color:#fff;}
+.fields-box{margin:0px;}
+#registor_form_id .fields-box{width:70%;}
+.Register-content #registor_form_id .fields-box{width:100%;}
+/*=============================
+contact
+================================*/
+.content-wrapper .title2{text-align:left; width:100%;}
+.content-wrapper .title3{text-align:left; width:100%; margin-bottom:50px;}
+.Register-content .form-group{width: 90%;}
+.row-form{width:100%; float:left;}
+.header-site3 .tab-content .pull-right .title3{text-align:center; width:100%; margin-bottom:5px;}
+.white-box .title2{color:#000;}
+.content-wrapper .address{margin:0px;}
+.content-wrapper .address ul li strong{text-transform:uppercase; font-weight:bold; font-family: "Lato",sans-serif; font-size:14px;  }
+.content-wrapper .message ul li {margin-bottom: 30px;}
+#contact_form_class .form-group .col-xs-12.col-sm-8.col-md-9.col-lg-6{  padding: 0;}
+#contact_form_class .form-group{float:left; width:100%;}
+#contact_form_class .form-group label {font-family: "Lato",sans-serif; font-size: 16px; font-weight: 500;line-height: 35px;}
+.contact_form_title{width:100%; float:left; margin-top:10px; text-transform:uppercase; font-size:20px; padding-left:0; margin-bottom:10px; }
+.fields-box .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
+    padding: 0;
+}
+#contact_form_class .btn-all{width:auto; margin:auto; padding:0px; float:none!important; display:table; padding:0 20px; border-radius: 0; width:100%;}
+.white-box .btn-all{background-color:#0a1c77; color:#fff; text-transform:none; font-size:18px; width:auto; padding:0 80px; border-radius: 0; }
+.error_color{width:100%; text-align:center; float:left;}
+.black-box .title2{color:#fff;}
+.title-3{width:100%; float:left; margin-top:30px; margin-bottom:30px;}
+.corporate-headquarters{width:100%; float:left; margin:40px 0; border-top:1px solid #757575;}
+.corporate-headquarters .title4{text-align:center;}
+.black-box.content-wrapper .address ul li strong{color:#fff;}
+.black-box.content-wrapper .message ul li p{color:#fff;}
+.black-box .contact_form_title{color:#fff;}
+.black-box #contact_form_class .form-group label{color:#fff;}
+.black-box.content-wrapper .message ul li p a{color:#f7d049;}
+.content-wrapper .condition{ border: medium none; box-shadow: 0 0 0;  padding:30px; background-color:#0a1c77;}
+.content-wrapper .condition h2{font-size:24px; color:#fff; margin-bottom:15px; font-family: "Lato",sans-serif; }
+.white-box  .condition h2{color:#000000;}
+.content-wrapper .button{ text-shadow: 0 0 0;  padding: 9px 0; border-radius: 10px; font-size:20px; }
+.content-wrapper .condition.deposite{border:none;}
+.content-wrapper .article{border:none;  box-shadow: 0 0 0; padding:0px;}
+
+.content-wrapper .article h2{margin-bottom:20px; color:#0a1c77; font-size:16px;}
+.content-wrapper.black-box .article{background:none;}
+.content-wrapper.black-box .condition{background:none;}
+.content-wrapper.black-box .article p{color:#fff; border-bottom:1px solid #fff;}
+.content-wrapper.black-box .article h2{color:#fff;}
+.content-wrapper.black-box .condition h2{color:#f7d049;}
+.content-wrapper.black-box .advantages ul li p{color:#fff;}
+.content-wrapper.black-box .advantages i{color:#f7d049;}
+.content-wrapper.black-box .button{background-color:#f7d049; color:#000;}
+.content-wrapper .bitcoin-box {background-color: #fff;border: medium none;box-shadow: 0 0 0;float: left;margin-bottom: 150px; padding: 0;width: 100%; margin-top:20px;}
+.content-wrapper .bitcoin-box{background:none;}
+.interna-content .promotion-box a{padding:0px;}
+.interna-content .title{text-align:left; margin-bottom:30px;} 
+.interna-content .title4{ font-size:18px;} 
+.title6{font-size:20px; color:#041047;}
+.corporate-headquarters {
+    width: 100%;
+    float: left;
+    margin: 0 0 40px 0;
+    border-top: 1px solid #757575;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.content-wrapper .bitcoin{ box-shadow: 0 0 0; margin: 0 1%;  width: 18%;  border:none;	} 
+.content-wrapper .bitcoin-text ul li{padding:0px; border:none;}
+.content-wrapper .bitcoin-text ul li p{width:100%; float:left; text-transform:uppercase; font-size:16px; text-align:center; line-height:70px; }
+.content-wrapper .bitcoin-text ul li:nth-child(odd){ background-color:#c2cbe6; }
+.content-wrapper .bitcoin-text ul li:nth-child(even){ background-color:#798dc7; }
+.content-wrapper .bitcoin-text{margin-top: 0;}
+.content-wrapper .bitcoid-head{height: 120px; line-height: unset; margin-bottom: 20px;   padding: 32px 0; background-color:#041047; color:#fff;} 
+.coen-box{width:auto; margin:auto; float:none; display:table; padding: 10px;}
+
+.coen-box img{max-width:100%;  width: 100%;}
+.content-wrapper .account {background:#041047; border-radius: 0; color: #fff; float: left; height: auto; line-height: 107px;  margin: 10px 0 0;
+  width: 100%;}
+.account-row .title1{text-transform:uppercase; text-align:left;}
+.content-wrapper .bitcoin-2 .bitcoid-head { padding: 0;}  
+.content-wrapper .bitcoin-2 .bitcoid-head .titlr, .content-wrapper .bitcoin-2 .bitcoid-head .titlr1{width:100%; padding:19px 0; float:left; background-color:#041047; color:#fff;  font-size: 21px; }
+.content-wrapper .bitcoin-2 .account{background-color:#041047; color:#fff;}
+.content-wrapper .bitcoin-2 .account:hover{background-color:#4b4842; color:#fff;}
+.content-wrapper .bitcoin-2 .bitcoin-text ul li:nth-child(odd){ background-color:#c2cbe6; }
+.content-wrapper .bitcoin-2 .bitcoin-text ul li:nth-child(even){ background-color:#798dc7; }
+.content-wrapper .bitcoin-2 .bitcoid-head .titlr1{background-color:#495dc9; text-transform:none; position:relative;  font-size: 18px;}
+.content-wrapper .bitcoin-text p.per-font {color: #fff; font-size: 24px;}	
+.content-wrapper .bitcoin-text p{color:#fff;}
+.title-1-box{width:auto; margin:auto; width:auto;  line-height: 24px; display:table; color:#fff;}
+.title-1-box img{float:left; margin: 0 6px;}
+.content-wrapper .bitcoin-3 .bitcoid-head .titlr{ padding:7px 0;}
+.content-wrapper .bitcoin-2:hover .titlr, .content-wrapper .bitcoin-2:hover .account{background-color:#0a1c77; color:#fff;}
+.content-wrapper .account:hover{background-color:#0a1c77;}
+.content-wrapper .bitcoin-text i{color:#f7d049;}
+.content-wrapper.black-box .bitcoin{background:none; border:1px solid #fff;}
+.content-wrapper.black-box .bitcoid-head{color:#fff;}
+.content-wrapper.black-box .bitcoin-1 h3{color:#fff;}
+.content-wrapper.black-box .bitcoin-1 h2{color:#fff;}
+.content-wrapper.black-box .bitcoin-text p{color:#fff;}
+.content-wrapper.black-box .promotion-box a p{color:#fff;}
+.foot-logo img{width:auto;}
+.Personaldetails-1{ margin-top:0; padding-right:0px;}
+.message-1{margin-top:30px; padding-right:0px;}
+.message-1 .col-xs-12.col-sm-8.col-md-9.col-lg-9, .Personaldetails-1 .col-xs-12.col-sm-8.col-md-9.col-lg-9{padding-right:0px}
+.form-control{border-radius: 0; background-color:#f5f5f5;}
+.white-box .article{background:none;}
+ .account-row .tab-content{padding:0px;}
+.form-terms-conditions .form-group .col-xs-12.col-sm-8.col-md-8.col-lg-9 .example{width:100%;}
+.form-terms-conditions .form-group{width:100%;}
+.form-terms-conditions .form-group .example{width:100%; float:left;}
+.form-your .example .catego-select{border-radius: 0;}
+.tab-content .form-your .form-horizontal{width:100%}
+.create-account .button-all-men {margin: 0 9px;padding: 0;width: 21%; background-color:#ff7058; color:#fff; }
+.get-your{width:100%; float:left; margin:70px 0 0;}
+#webTicker > li {display: inline-block; width:150px;}
+#webTicker li span:first-child { clear: both; display: block;}
+#webTicker li span{ font-weight:600; font-family: 'Lato', sans-serif; font-size:16px; }
+.usdcad-col{width:100%; }
+#webTicker li p {padding: 0 20px; border:none; color:#fff; font-weight:400;}	
+.header_signup_wrap{width:100%; float:left;}
+.header_signup_wrap .form-group{float:left; margin:0px;}
+.header_signup_wrap .register-now{margin:0px; padding:0px; box-shadow:0 0 0;  border-radius: 0px; background-color:#394cb5; text-transform:none; color:#fff; font-size: 15px;}
+.header_signup_wrap .col-xs-12.col-sm-2.col-md-2.col-lg-2{padding-left:0px;}
+.header_signup_wrap .form-control{  border-radius: 0px;}
+.header_signup_wrap .form-group{width:100%; float:left; margin-bottom:50px; }
+#webTicker li .rad-box{color:#F00;}
+#webTicker li .gean-box{color:#aad648;}
+.form-horizontal-pop{border:none;}
+.volumes-row{width:100%; float:left; position:relative; background-color:#0a1c77; padding:90px 0;}
+.volumes-cont{width:100%; float:left; text-align:center; font-size:38px; color:#fff;}
+.volume-soml{width:100%; float:left; color:#60b7ff; text-align:center; font-size:18px;}
+.icons-row{background-color: #ffffff;}
+.crypto-get{width:100%; float:left; position:relative; margin:80px 0;}
+.per {font-size: 29px;}
+.profx-box {border: 1px solid #e0dcdc; float: left; position: relative; width: 100%;}
+.ir-icon-get{padding:0px; overflow:hidden;}
+.ir-text-get .ir-title{color:#02104f; float:left; font-size:19px; font-weight:bold; width:100%; float:left; text-transform:uppercase; }
+.ir-text-get p {color:#02104f; float: left; font-size: 18px; margin-top: 13px; width: 100%;}
+.ir-icon-get .icon-get-box{background-image:url(../images/ie-icon.png); background-repeat:no-repeat; height: 50px; width: 100%;}
+.icon-get-2{background-position:-473px -1px ;}
+.icon-get-3{background-position:-990px 0;}
+.icon-get-4{background-position:0 -200px;}
+.icon-get-5{background-position:-473px -195px  ;}
+.icon-get-6{background-position:-990px -196px;}
+.icon-get-7{background-position:0 -403px;}
+.icon-get-8{background-position:-485px -403px ;}
+.icon-get-9{background-position:-999px -403px;}
+
+.ul-lest ul {padding-left:15px;}
+.ul-lest ul li{color:#fff; font-size:20px; width:100%; margin-bottom:5px;}
+.ul-lest ul li i{color:#539ffe;}
+.start-buton{box-shadow: 0 0; background-color:#fff; color:#001372; line-height: 66px; width: 280px;}
+.start-buton:hover{background-color:#20efa4;}
+.carousel-indicators {bottom: -50px;}
+.carousel-indicators li{background-color:#9da2a9; height:15px; width:15px; border:none; margin:0px 3px;}
+.carousel-indicators .active{background-color:#4a4b4f; height:15px; width:15px; border:none;  margin:0px 3px;}
+.promotion-text{width:100%; float:left; margin-top:0;}
+.deposit-new{width:100%; float:left; padding:45px 0; background-color:#363636; }
+.deposit-new h1{width:100%; float:left; font-size:38px; margin-bottom:20px; color:#fff; font-weight:100; font-family: "Lato",sans-serif; text-align:center;}
+.deposit-new .start-buton{margin:auto; display:table; float:none; width:auto; padding-right:40px; padding-left:40px; color:#363636; font-size:16px;}
+.footer-site3 .social-media {float: right; width: 100%; padding: 0 0 20px;}
+.footer-left ul li{width:auto;}
+.footer-left ul li a{background:none;margin: 0 10px; width: 40px;}
+.footer-site3 .footermenu span{color:#6ac8ff; border-bottom:1px solid ; padding:0 10px 5px 0;}
+.footer-site3 .footermenu {top: 0;}
+
+.foot-logo {
+    margin: 39px 10px;
+}
+.footer-next-row{width:100%; background-color:#081553; float:left; margin-top:40px;}
+.footer-site6 {background-color: #041047; padding: 0 0 0 !important;}
+.footer-site3 .terms {color: #b7b5b9; display: inline-block; float: left; font-size: 13px; font-weight: normal; margin: 0; padding: 20px 0; position: relative;  text-align: center; top: 0; width: 100%;}
+.footer-site3 .terms a { color: #fff;  padding: 0 10px;}
+.volumes-row hr {
+    float: none;
+    width: 250px;
+    margin: auto;
+    height: 1px;
+    background: #60b7ff;
+    display: table;
+}
+.content-wrapper .button {
+    text-shadow: 0 0 0;
+    padding: 13px 0;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.nos-poles{width:100%; float:left; margin:80px 0;}
+
+.nos-poles-box{width:100%; float:left; margin-bottom:20px; }
+.NPB-text {
+	border: 1px solid #dedbdb;
+	padding: 20px;
+	width:100%; float:left;
+	border-bottom: 9px solid #0a1c77;
+}
+.NPB-text h2{font-family:Arial, Helvetica, sans-serif; font-weight:bold; width:100%; float:left; text-align:center; text-transform:uppercase; margin-bottom: 20px;}
+.NPB-text h3{font-family:Arial, Helvetica, sans-serif; font-weight:bold; width:100%; float:left;  margin: 10px 0;}
+.NPB-text ul {
+	width: 100%;
+	float: left;
+	border-top: 2px solid #dedbdb;
+	padding: 0 0;
+}
+.NPB-text ul li{width:100%; float:left; line-height: 36px; border-bottom:2px solid #dedbdb;}
+.NPB-text ul li span{font-family:Arial, Helvetica, sans-serif; float:left;  margin: 10px 0; font-size:20px;}
+.NPB-text ul li i{float:right; margin: 17px 0;}
+
+.NPB-text p {
+	float: left;
+	width: 100%;
+	margin: 0;
+	font-size: 21px;
+	color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1580px)
+
+{.exchangebar {
+    float: left;
+    height: 70px;
+    padding: 0px 0 !important;
+    width: 100%;
+	
+}}
+@media screen and (max-width:1580px)
+{
+.ir-text{ margin-top: 1px}
+.buyprice p{font-size: 22px;}
+.price-box2 li a{font-size: 20px;}
+.title{font-size: 27px;}
+.create-account .button-all-men {margin: 0 9px;padding: 0;width: 21%;}
+}
+@media screen and (max-width:1400px)
+{
+.slider-row h3 {font-size: 25px;}
+.slider-row p {font-size: 14px; margin-bottom:20px; opacity: 1;}
+}
+@media screen and (max-width:1200px)
+{
+.slider-row h3 {font-size: 20px;}
+.slider-row p {font-size: 12px; margin-bottom: 10px; opacity: 1;}
+.volumes-cont{font-size: 30px;}
+.discover {padding: 0;}
+.buyprice strong{font-size: 20px;}
+.buyprice p {font-size: 18px;}
+.price-box2 li a {font-size: 15px;}
+.center-crypto{ padding: 10px;}
+.ethereum {float: left; padding: 18px 0;}
+.tradeethereum{margin: 20px 0 0;}
+.register-1 {font-size: 12px;line-height: 50px; padding: 0 3px; width: auto;}
+.buyprice p {font-size: 15px;}
+.buyprice {float: left; width: 50%;}
+.price-box2 li a {font-size: 11px;}
+.ethereum-icon {float: none; margin: auto; width: 50px;}
+.ethereum-tsxt p {color: #2b2a2a;font-size: 16px;line-height: 52px;margin: 0; padding: 0 3px 0 0; width: auto;}
+.ethereum {float: left; padding: 0;}
+.per {
+    font-size: 24px;
+}
+.promotion-text p{font-size:12px;}
+}
+@media screen and (max-width:1000px)
+{
+.slider-row .button-all-men{margin: 30px auto 0;}
+
+.ir-icon{float:none; margin-bottom:20px;}
+#contact_form_class .col-xs-12.col-sm-8.col-md-9.col-lg-9 {width: 66%;}
+.register .tab-content {background:none;}
+.buyprice strong {font-size: 25px;}
+.ethereum-icon { float: left;  margin: auto;  width: 50px;}
+.ethereum { float: right;  padding: 0;}
+.title {
+    font-size: 24px;
+}
+}
+@media screen and (max-width:980px)
+{
+.create-account .form-group {width: 45%;}
+.create-account .button-all-men {margin: 0;padding: 0;width: 43%;}	
+.volumes-row{padding:60px 0;}
+#header.header-site6 .navbar-inverse .navbar-nav > li > a {font-size: 13px; padding: 0 11px;}
+.slider-row h5{margin-top: 30px;}
+.slider-row .button-all-men {margin: 0 auto;}
+#header.header-site6{padding: 15px 0;}
+
+.get-your{margin: 50px 0 0;}
+.header_signup_wrap .form-group{margin-bottom: 20px;}
+.per {font-size: 17px; font-weight: bold;}
+.ir-icon-get .icon-get-box{background-size: 700px auto;}
+.icon-get-2{background-position: -317px -1px;}
+.icon-get-3{background-position: -667px -1px;}
+.icon-get-4{background-position: 0 -136px;}
+.icon-get-5{background-position: -317px -130px;}
+.icon-get-6{background-position:-667px -132px;}
+.icon-get-7{background-position:0 -268px;}
+.icon-get-8{background-position:-322px -268px;}
+.icon-get-9{background-position: -667px -268px;}
+.ir-text-get .ir-title{font-size: 15px;}
+.ul-lest ul li{font-size: 17px;}
+.ir-text-get p{font-size:13px;}
+.footer-site3 .footermenu{top: 0; margin-bottom:25px;}
+}	
+@media screen and (min-width:767px)
+{
+.dropdown:hover .dropdown-menu{display:block;}	
+}
+@media screen and (max-width:767px)
+{
+.sd_mnu{
+    width: 14%;
+    float: right;
+    display: block;
+    margin-top: 95px;
+}
+.slider-row .container{text-align:center;}	
+
+.header_signup_wrap .col-xs-12.col-sm-2.col-md-2.col-lg-2{margin-bottom: 10px;}
+.volumes-row{padding:30px 0;}
+.ir-icon-get {width:100%;}
+.ir-icon-get .icon-get-box {background-size: 700px auto; margin: auto; width: 41px;}
+.ir-text-get.col-xs-9.col-sm-10.col-md-10.col-lg-10{width:100%; text-align:center;}
+.ul-lest {margin: 30px 0 0;}
+.footer-left{border:none;}
+.footer-left ul { display: table; float: none; margin: auto; width: auto;}
+.foot-logo { margin-bottom: 0;}
+.footer-site3 .footermenu {margin-bottom: 25px; top: 0; width: 100%;}
+
+.footer-site3 .social-media {
+	float: left;
+	width: auto;
+	padding: 0 0 20px;
+}
+.deposit-new h1 {font-size: 23px;}
+.slider > img {height: 320px;}
+.slider-row h5 {margin: 20px 0;  font-size: 20px;}
+.slider-row h3 {font-size: 16px;}
+.navbar-inverse .dropdown {float: left; line-height: 60px; padding: 9px 0; width: 100%;}
+.title {font-size: 20px;}
+.slider-row .button-all-men {
+    border-radius: 0;
+    display: table;
+    float: none;
+    margin: 30px auto 0;
+    padding: 6px 20px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+.cryptocurrency-charts1 .title{font-size: 22px;}
+.border-left-1{border:none; text-align:left;}
+.buy-token{ width: 140px;}
+.register-1{width: 140px;}
+.largest p{font-size:14px;}
+.largest-img{width:80%;}
+.largest-img img{width:100%;}
+.ethereum-icon { float: left; margin: auto;  width: 50px;}
+.ethereum {display: table; float: none; margin: 10px auto;  padding: 0;}
+.price-box { float: none; margin: auto; width: 70%;}
+.buyprice p{text-align:center;}
+.buyprice strong{text-align:center; width:100%; float:left;}
+.price-box2 li a {font-size: 14px;}
+.price-box2 > ul { display: table; float: none; margin: auto; text-align:center;}
+.tradeethereum { display: table; float: none; margin: 20px auto 10px;}
+.create-account .form-group{width:100%; float:left; }
+.create-account .button-all-men { margin: 0;  padding: 0;  width: 100%;}
+.create-account .form-control{width:100%;}
+.account{display:block;}
+#contact_form_class .form-group .col-xs-12.col-sm-4.col-md-3.col-lg-3{width:100%;}
+#contact_form_class .col-xs-12.col-sm-8.col-md-9.col-lg-9 { width: 100%; padding:0px;}
+.register .tab-content {background:none;}
+.register-header .title2{font-size: 16px;   padding: 0;}
+.register-title{margin-bottom: 20px;}
+.content-wrapper .title3 { font-size: 11px; margin-bottom: 10px; text-align: left; width: 100%; padding:0px;}
+.register-header .title2 span{width:40px;}
+.title-4{ font-size: 18px;}
+.navbar-inverse .navbar-toggle .icon-bar{background-color: #091c77;}
+.navbar-inverse .navbar-toggle{border-color: #091c77;}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{   background-color: #091c77;  border-color: #091c77;}
+#header.header-site3 .navbar-inverse .navbar-nav > li > a{color:#fff;}
+#header.header-site3 .account .pull-right > li{width:100%;height:100%;}
+.account .pull-right .open > .dropdown-menu{}
+.account.navbar-right ul{width:100%;}
+#header.header-site3 .account.navbar-right {width:100%;}
+#contact_form_class .btn-all{width:175px;}
+.buyprice {float: left;  width: 70%;}
+.buyprice strong {float: left;  text-align: center;width:0px;}
+.ethereum{float:right;}
+.largest-text div img{margin: 0 auto;}
+.bitcoin{display:none;}
+.bitcoin.bitcoin-2{ display: block; margin: 0 2%;  width: 96%;}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.register-title {
+    margin: 0;
+}
+.fields-box .col-xs-12.col-sm-12.col-md-12.col-lg-12{padding:0px;}
+.form-horizontal .form-group{margin:0px;}
+.form-your .col-xs-12.col-sm-6.col-md-6.col-lg-6{padding:0px;}
+.Register-content .form-group{width:100%; float:left;}
+.form-group .col-xs-12.col-sm-8.col-md-8.col-lg-9{padding:0px;} 
+.form-group .col-sm-9{padding:0px;}
+.form-your .pager2{margin-bottom:10px; float:left; width:100%; padding:0px;}
+.form-your .pager{margin-bottom:10px;}
+.NPB-text h2{font-size:20px;}
+.NPB-text h3{font-size: 18px;}
+.NPB-text ul li span{font-size: 15px;}
+.NPB-text p{font-size: 13px;}
+}
+
+@media screen and (max-width:768px) 
+{
+
+}
+@media screen and (max-width:600px)
+{
+.price-box {width: 100%;}
+.price-box2 li {display: inline-block; float: none;padding: 0;}
+.create-account {float: none;margin: auto;padding: 0; width: 90%;}
+.title {font-size: 16px;}
+.Or-use .button-3 .button-all-men .fa{width: 100px;}
+.Or-use .button-3 {margin: 20px auto 40px;}
+.Or-use p{font-size: 13px;}
+.owl-carousel.owl-theme {float: left;}
+.register-header .title2{font-size: 13px;   padding: 0;}
+.footer-site2 .col-xs-12.col-sm-6.col-md-5.col-lg-5.pull-right a {font-size: 10px;}
+.footer-site2 .col-xs-12.col-sm-6.col-md-5.col-lg-5.pull-right > li a .fa {font-size: 15px; height: 22px; line-height: 23px; margin-left: 3px; margin-top: 10px; width: 23px;}
+.register-1 { margin: 0; width: 116px;}
+.buy-token {width: 113px;}
+.discover ul li {padding:0px !important; float: left !important;  width: 100% !important;margin-bottom:0px;}
+.ir-text{ padding:0px !important;  float: left !important;  text-align:center ;  margin-left: 0px;  width: 100% !important;}
+.discover ul li:nth-child(3){margin: 0 auto 0px !important;}
+.content-wrapper .form-space{width:100%;}
+.footer-site2 .col-xs-12.col-sm-6.col-md-5.col-lg-5.pull-right > li{padding-right: 10px;}
+
+.form-terms-conditions{margin:0px auto 0;}
+.title6 {
+    font-size: 12px;}
+}
+@media screen and (max-width:425px) 
+{
+.discover ul li { float: unset !important;}
+.ir-text { margin-left: 35px;}	
+}

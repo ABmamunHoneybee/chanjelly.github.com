@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*.bitcoin {height:100%; width:100%; position:absolute;}*/
+.beginner {background-color:rgba(109, 197, 234, 0.3); padding:15px; border-radius:5px; display:inline-block; float:left; width:100%; margin:15px 0;}
+.beginner-no {background-color:rgba(109, 197, 234,1); font-family:Lato; font-style:normal; text-align:center; width:100%; font-size:40px; color:#FFF; padding:65px 21px; border-radius:5px; float:left; display:table-column; }
+.profile {height:100%; width:100%; padding:15px 0; margin:0 auto; display:inline-block;}
+.profile img {color:#7bd2f6; float:left; top:15px;	 }
+.profile h4 {text-transform:none; color:#000; position:absolute; left:18%; top:30px; font-size:22px;}
+.profile h3 {color:#6dc5ea; text-transform:uppercase; position:absolute; left:15px; top:67px; font-size:30px;}
+.about-us	{}
+.about-us ul {}
+.about-us ul li {color: #444444;font-size: 18px;font-weight: 500;text-transform:none;}
+.about-us ul li i {color:rgba(109, 197, 234,1);margin-bottom:10px; height:50%; width:7%;}
+.invest {}
+.invest h3 {font-size:28px; color:#000; text-transform:none;}
+.invest h2 {color:#6dc5ea; font-size:34px; padding:10px 0;}
+.account-button a{background-color:#6dc5ea; border-radius:5px; display:inline-block; float:left; color:#FFF; font-size:16px; text-align:center; text-transform:uppercase; width:100%; box-shadow:none; padding:20px 0; margin-top:20px;}
+.Intermediate {padding:80px 21px; background-color:rgba(255, 209, 92, 1)}
+.Intermediate-bg {background-color:rgba(255, 209, 92, 0.3)}
+.profile-1  img {color:rgba(255, 209, 92, 1); float:left;  }
+.profile-1  h4 {text-transform:none; color:#000; position:absolute; left:18%; top:30px;}
+.profile-1  h3 {color:rgba(255, 209, 92, 1); text-transform:uppercase; position:absolute; left:15px; top:67px; font-size:30px;}
+.about-us-1 ul {}
+.about-us-1 ul li {color: #444444;font-size: 18px;font-weight: 500;text-transform:none;}
+.about-us-1 ul li i {color:rgba(255, 209, 92, 1);margin-bottom:10px; height:50%; width:7%;}
+.invest-1 {margin:10px 0 0;}
+.invest-1 h2 {color:rgba(255, 209, 92, 1); font-size:34px; padding:10px 0;}
+.invest-1 h3 {font-size:28px; color:#000; text-transform:none;}
+.account-button-1 a{background-color:rgba(255, 209, 92, 1); border-radius:5px; display:inline-block; float:left; color:#FFF; font-size:16px; text-align:center; text-transform:uppercase; width:100%; box-shadow:none; padding:20px 0; margin-top:20px;}
+.high {padding:108px 21px; background-color:rgba(255, 112, 88, 1)}
+.Litecon-bg {background-color:rgba(255, 112, 88, 0.3)}
+.profile-2  h3 {color:rgba(255, 112, 88, 1); text-transform:uppercase; position:absolute; left:15px; top:67px; font-size:30px;}
+.about-us-2 ul {}
+.about-us-2 ul li {color: #444444;font-size: 18px;font-weight: 500;text-transform:none;}
+.about-us-2 ul li i {color:rgba(255, 112, 88, 1);margin-bottom:10px; height:50%; width:7%;}
+.invest-2 h2 {color:rgba(255, 112, 88, 1); font-size:32px; padding:10px 0;}
+.invest-2 h3 {font-size:28px; color:#000; text-transform:none;}
+.account-button-2 a{background-color:rgba(255, 112, 88, 1); border-radius:5px; display:inline-block; float:left; color:#FFF; font-size:16px; text-align:center; text-transform:uppercase; width:100%; box-shadow:none; padding:20px 0; margin-top:20px;}
+.pro {padding:138px 21px; background-color:rgba(167, 167, 167, 1)}
+.CRYPTO-bg {background-color:rgba(167, 167, 167, 0.3)}
+.profile-3  h3 {color:rgba(0, 0, 0, 1); text-transform:uppercase; position:absolute; left:15px; top:67px; font-size:30px;}
+.about-us-3 ul {}
+.about-us-3 ul li {color: #444444;font-size: 18px;font-weight: 500;text-transform:none;}
+.about-us-3 ul li i {color:rgba(255, 112, 88, 1);margin-bottom:10px; height:50%; width:7%;}
+.invest-3 h2 {color:rgba(167, 167, 167, 1); font-size:32px; padding:10px 0;}
+.invest-3 h3 {font-size:28px; color:#000; text-transform:none;}
+.account-button-3 a{background-color:rgba(167, 167, 167, 1); border-radius:5px; display:inline-block; float:left; color:#FFF; font-size:16px; text-align:center; text-transform:uppercase; width:100%; box-shadow:none; padding:20px 0; margin-top:20px;}
+
+
+
+
+
+@media (max-width:991px)
+{
+.beginner-no {padding:5px 15px; margin-bottom:25px;}	
+}
+
+
+
+
+@media (max-width:767px)
+{
+.beginner-no {width:100%;}
+.profile {margin:17px auto;}	
+.profile h3 {top:93px;}
+.profile h4 {left:80px; top:65px; }
+}
+
+@media (max-width:481px)
+{
+.beginner-no {width:100%; padding:10px 0;}
+.profile {margin:25px auto;}
+
+}
+
+
+@media (min-width:0px) and (max-width:480px)
+{	
+.beginner-no {padding:20px 21px; width:100%;}
+.profile {margin:15px 0 40px;}
+.profile h4 {left:60px; top:40px; }
+.profile h3 {top:70px;}
+.profile-1 {margin-top:15px; margin-bottom:44px;}
+.invest {margin-top:25px;}
+.invest-1 {margin-top:25px;}
+.profile-2 {margin-bottom:78px;}
+.invest-2 {margin-top:25px;}
+.invest-3 {margin-top:25px;}
+}
+
+
+
