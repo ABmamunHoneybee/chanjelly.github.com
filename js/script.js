@@ -1,4 +1,23 @@
 jQuery(document).ready(function(){
+    AOS.init();
+    $(".wlt_mnu").click(function(){
+      $(".wlt_mnu").removeClass("wlt_ac")
+      $(this).addClass("wlt_ac");
+      var img = $(this).data("img");
+      $(".img_src").attr("src", img);
+    });
+    $(".lig_mnu").click(function(){
+      $(".lig_mnu").removeClass("lig_ac")
+      $(this).addClass("lig_ac");
+      var img = $(this).data("img");
+      $(".img_src_lig").attr("src", img);
+    });
+    $(".blk_mnu").click(function(){
+      $(".blk_mnu").removeClass("blk_ac")
+      $(this).addClass("blk_ac");
+      var img = $(this).data("img");
+      $(".img_src_blk").attr("src", img);
+    });
     jQuery(".register-now").click(function(e){
        
         var first_name =jQuery("#h-firstname").val();
@@ -1067,9 +1086,7 @@ $(document).ready(function() {
 });
 
 
-$('#webTicker').webTicker({
-						  hoverpause:false,
-						  });
+
 function loadRandom1() {
 	var datahtml="";
 	var class2="";
@@ -1084,12 +1101,6 @@ function loadRandom1() {
     });      
 	
   });
-
-$("#webTicker").webTicker('update',datahtml,
-        'swap',
-        true,
-        false
-    );
 	
 }
 
