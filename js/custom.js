@@ -17,3 +17,15 @@ $(".chng_nav").click(function(){
   }
 });
 });
+$(".nv_mn").click(function(){
+  $(".nv_mn").removeClass("nv_mn_act");
+  $(this).addClass("nv_mn_act");
+  var url = $(this).data("url");
+  $.ajax({
+   url: url,
+   type: 'GET',
+   success: function(data) {        
+     $(".res_bd").html(data)
+   }
+ });
+ });
