@@ -50,6 +50,10 @@ footer h2 {
   background-size: cover;
   background-position: center;
 }
+nav img {
+    height: auto;
+    width: 150px !important;
+}
 .nv_mn {
   font-weight: 700;
 }
