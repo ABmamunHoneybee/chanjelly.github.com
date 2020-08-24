@@ -57,6 +57,10 @@ nav img {
 .nv_mn {
   font-weight: 700;
 }
+nav img{
+height: auto;
+width: 150px !important;
+}
 .icn{
   width: 20vh;
   display: flex;
