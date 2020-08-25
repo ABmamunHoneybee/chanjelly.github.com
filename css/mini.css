@@ -39,6 +39,10 @@ footer h2 {
 .motion{
   animation: motion 50s infinite 0s linear;
 }
+nav img {
+    height: auto;
+    width: 150px !important;
+}
 .met_team{
   height: 35vh;
   width: 100%;
@@ -50,16 +54,8 @@ footer h2 {
   background-size: cover;
   background-position: center;
 }
-nav img {
-    height: auto;
-    width: 150px !important;
-}
 .nv_mn {
   font-weight: 700;
-}
-nav img{
-height: auto;
-width: 150px !important;
 }
 .icn{
   width: 20vh;
