@@ -7,8 +7,41 @@ html {
   scroll-behavior: smooth !important;
   overflow-x: hidden;
 }
+.goog-te-banner-frame {
+  display: none;
+}
+select.goog-te-combo {
+  background: transparent;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+select.goog-te-combo option {
+  color: black !important;
+}
+.home_fot select.goog-te-combo option {
+  background-color: black !important;
+  color: #e43f5a !important;
+}
+.home_fot {
+  color: #e43f5a !important;
+}
 
-body { outline: none; padding: 0px; margin: 0px; font-family: 'arial'; background-color: #efefef;overflow-x: hidden;}
+.home_fot a {
+  color: white !important;
+  font-weight: 900 !important;
+}
+
+.home_fot select.goog-te-combo {
+  color: white !important;
+  border: 1px solid white !important;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+body { outline: none; padding: 0px; margin: 0px; font-family: 'arial'; background-color: #efefef;overflow-x: hidden;
+  top: 0px !important;
+  position: relative !important;
+  min-height: 100%;}
 button:focus{outline: none;} 
 select:focus{outline: none;} 
 iframe {width: 100%;}
