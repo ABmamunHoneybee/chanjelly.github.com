@@ -1,4 +1,14 @@
 $.ajax({
+  url: "modal.html",
+  type: 'GET',
+  success: function(data) {        
+    $("modal").html(data)
+  }
+});
+$(".log_btn .btn-light").click(function(){
+  $('#login').modal('show')
+});
+$.ajax({
     url: "footer.html",
     type: 'GET',
     success: function(data) {        
@@ -29,3 +39,19 @@ $(".nv_mn").click(function(){
    }
  });
  });
+
+ $.ajax({
+  type: 'GET',
+  url: "https://restcountries.eu/rest/v2/all",  
+  dataType: "json",
+  success: function(datas) {
+    $.each(datas, function(i, data){
+      $(".cuntry").append("<option value='"+data['name']+"'>"+data['name']+"</option>");
+    });   
+    
+  }
+});
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  $(".skiptranslate.goog-te-gadget span").html("CHANJELLY");
+}
