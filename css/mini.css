@@ -24,9 +24,8 @@ select.goog-te-combo option {
   color: #e43f5a !important;
 }
 .home_fot {
-  color: #e43f5a !important;
+  color: #404b8a !important;
 }
-
 .home_fot a {
   color: white !important;
   font-weight: 900 !important;
@@ -640,7 +639,7 @@ header header-site3
   background-position: top;
   background-attachment: fixed;
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -1338,6 +1337,7 @@ line-height: 33px; margin: 0 16px 0 0; position: absolute; right: -16px; text-al
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
   }
+
 .menuclose{display:none;}
 .affix {left: 0;  padding: 0 6%; position: fixed;  width: 100%;  z-index: 99999999;}
 .affix .navbar-brand {height: auto; padding: 4px 0;}
@@ -1348,6 +1348,22 @@ line-height: 33px; margin: 0 16px 0 0; position: absolute; right: -16px; text-al
 }
 @media screen and (max-width:700px)
 {
+.wlt_mnu a {
+  font-size: 15px;
+}
+.blk_mnu a {
+  font-size: 15px;
+}
+.res_h3 {
+  font-size: large !important;
+  margin-top: 15px !important;
+}
+.lig_mnu a {
+  font-size: 15px;
+}
+.btm_img{
+  margin-bottom: 0px !important;
+}
   div#navbarTogglerDemo02 {
     position: inherit;
     top: 234px;
@@ -1364,6 +1380,11 @@ section#frst {
 .log_btn{
 position: unset !important;
 }
+.nv_mn_act{
+  display: inline-block;
+  float: right;
+}
+
 header#header {
 position: absolute !important;
 }
