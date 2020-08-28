@@ -30,14 +30,13 @@ select.goog-te-combo option {
   color: white !important;
   font-weight: 900 !important;
 }
-
 .home_fot select.goog-te-combo {
   color: white !important;
   border: 1px solid white !important;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-body { outline: none; padding: 0px; margin: 0px; font-family: 'arial'; background-color: #efefef;overflow-x: hidden;
+body { outline: none; padding: 0px; margin: 0px; font-family: 'arial'; background-color: #00001f;overflow-x: hidden;
   top: 0px !important;
   position: relative !important;
   min-height: 100%;}
