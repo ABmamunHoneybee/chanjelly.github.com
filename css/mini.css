@@ -1056,7 +1056,6 @@ text-align: center;}
 .account .pull-right > li {height: 40px;margin-left: 10px; width: 140px;}
 .account .pull-right img {padding: 7px 0 0 10px;}
 #header{margin-top: 50px;}
-.slider-row h3{font-size: 50px;}
 .slider-row p{font-size: 23px;}
 .start-buton {font-size: 25px; line-height: 76px;width: 360px;}
 .exchangebar p {font-size: 12px; line-height: 28px; margin: 0; padding: 0 10px;}
@@ -1099,7 +1098,6 @@ text-align: center;}
 .account .pull-right > li a {font-size: 12px;line-height: 36px;}
 .account .pull-right > li {height: 37px; margin-left: 10px; width: 130px;}	
 #header {margin-top: 40px;}
-.slider-row h3 {font-size: 40px;}
 .slider-row p {font-size: 19px;}
 .start-buton {font-size: 19px; line-height: 67px;width: 280px;}
 .slider-row p{ margin-bottom: 30px;}
@@ -1136,7 +1134,6 @@ text-align: center;}
 .account .pull-right > li a{ line-height: 40px;}
 .account .pull-right img {padding: 4px 0 0 10px;}
 .collapse.navbar-collapse.sidenav {margin-top: 12px;}
-.slider-row h3 {font-size: 35px;}
 .slider-row { top: 152px;}
 .ir-icon { float: none; height: 90px; margin: auto; width: 90px;}
 .ir-text {float: left; margin-left: 0; margin-top: 21px; text-align: center; width: 100%; min-height: 80px;}
@@ -1169,7 +1166,6 @@ text-align: center;}
 	
 @media screen and (max-width:867px)
 {
-.slider-row h3 {font-size: 29px;}
 .slider-row p {font-size: 16px;}
 .start-buton {font-size: 16px; line-height: 57px; width: 250px;}	
 
@@ -1229,7 +1225,6 @@ line-height: 33px; margin: 0 16px 0 0; position: absolute; right: -16px; text-al
 .navbar-inverse .navbar-toggle:hover span, .navbar-inverse .navbar-toggle:focus span{background-color:#091c77; border-color:#091c77;}
  .account .pull-right .open > .dropdown-menu .btn-all {width: 100px; line-height: 2; box-shadow: 10px 10px 90px;}
 .slider-row { top: 102px;}
-.slider-row h3 { text-transform: uppercase; float: none; font-size: 30px; font-weight:bold; margin: auto; text-align: center;}
 .slider-row p {float: none; font-size: 13px; margin: 20px auto; text-align: center;}
 .start-buton {box-shadow: 0 -3px 0 #c18c24 inset; display: table; float: none; font-size: 14px; line-height: 47px; margin: auto; width: 220px;}
 
@@ -1399,8 +1394,6 @@ h2 {font-size: 22px !important;}
 .w-50{width: 100% !important;}
 .w-25{width: 100% !important;}
 .logo { margin: 9px 0 0; width: 210px;}
-.slider-row h3{width:100%;}	
-.slider-row h3 {font-size: 18px; text-align: center;}
 .slider-row p{width:100%;  margin: 10px auto;}
 .start-buton {font-size: 12px; line-height: 37px; margin: auto; width: 190px;}
 .slider-row {top: 82px;}
