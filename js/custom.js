@@ -51,6 +51,9 @@ $(".nv_mn").click(function(){
     
   }
 });
+$(".attach").click(function(){
+$(".file_click").click();
+});
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
   $(".skiptranslate.goog-te-gadget span").html("CHANJELLY");
